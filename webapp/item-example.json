@@ -1,0 +1,16 @@
+{
+    "origin-item": {
+        "_id": 0,
+        "title": "Item",
+        "manufacturer": "Manufacturer",
+        "quantity": 0,
+        "weight": "weight in pounds",
+        "location": {
+            "section": "A",
+            "shelf-num": 4,
+            "row-num": 12
+        },
+        "arrival_date": "02/04/2020",
+        "departure_date": "09/31/2020"
+    }
+}

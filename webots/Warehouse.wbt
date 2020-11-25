@@ -1,0 +1,1988 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 8
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.003994384424567499 0.993779718297425 0.11129203203176523 3.158202900928332
+  position 1.4988992473529572 2.5330765979005236 -13.817595327448482
+}
+TexturedBackground {
+  texture "factory"
+}
+TexturedBackgroundLight {
+  texture "factory"
+}
+RectangleArena {
+  floorSize 39 39
+  floorTileSize 5 5
+  floorAppearance ScratchedPaint {
+  }
+  wallHeight 4
+}
+StraightRoadSegment {
+  translation 19.5 0 4
+  rotation 0 1 0 1.5708003061004252
+}
+StraightRoadSegment {
+  translation 19.5 0 -8
+  rotation 0 1 0 1.5708003061004252
+  name "road(3)"
+}
+TruckSimple {
+  translation 27.91 0.5 5.54999
+  rotation 0 1 0 1.5708
+}
+TruckSimple {
+  translation 28.01 0.5 2.24999
+  rotation 0 1 0 1.5708
+  name "vehicle(1)"
+}
+TruckSimple {
+  translation 28.11 0.5 -6.26001
+  rotation 0 1 0 1.5708
+  name "vehicle(3)"
+}
+TruckSimple {
+  translation 28.11 0.5 -9.78001
+  rotation 0 1 0 1.5708
+  name "vehicle(2)"
+}
+StraightRoadSegment {
+  translation 29 0 4
+  rotation 0 1 0 1.5708003061004252
+  name "road(1)"
+}
+StraightRoadSegment {
+  translation 29 0 -8
+  rotation 0 1 0 1.5708003061004252
+  name "road(2)"
+}
+CardboardBox_3 {
+  translation 0 1 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 3(1)"
+}
+CardboardBox_10 {
+  translation 2 2.48 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_9 {
+  translation -6.5 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_9 {
+  translation -9.51 1 -8
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box 9(2)"
+}
+CardboardBox_8 {
+  translation -5.5 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_8 {
+  translation -8.51 1 -8
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box 8(2)"
+}
+CardboardBox_7 {
+  translation -4.5 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_7 {
+  translation -7.51 1 -8
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box 7(2)"
+}
+CardboardBox_6 {
+  translation -3 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_5 {
+  translation -2 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_4 {
+  translation -1 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_3 {
+  translation 0 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox_2 {
+  translation 1 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox {
+  translation 15.96 0.44 16.3
+}
+CardboardBox_1 {
+  translation 2 1 -8
+  rotation 0 1 0 -1.5707953071795862
+}
+CardboardBox {
+  translation 15.95 0.44 14.3
+  name "cardboard box(5)"
+}
+CardboardBox {
+  translation 15.98 0.44 12.29
+  name "cardboard box(17)"
+}
+CardboardBox {
+  translation 15.26 0.44 12.29
+  name "cardboard box(26)"
+}
+CardboardBox {
+  translation 13.93 0.44 12.29
+  name "cardboard box(31)"
+}
+CardboardBox {
+  translation 11.89 0.44 12.29
+  name "cardboard box(35)"
+}
+CardboardBox {
+  translation 13.29 0.44 12.29
+  name "cardboard box(30)"
+}
+CardboardBox {
+  translation 11.17 0.44 12.29
+  name "cardboard box(34)"
+}
+CardboardBox {
+  translation 15.28 0.44 16.3
+  name "cardboard box(3)"
+}
+CardboardBox {
+  translation 13.91 0.44 16.3
+  name "cardboard box(11)"
+}
+CardboardBox {
+  translation 11.85 0.44 16.3
+  name "cardboard box(21)"
+}
+CardboardBox {
+  translation 13.21 0.44 16.3
+  name "cardboard box(13)"
+}
+CardboardBox {
+  translation 11.11 0.44 16.3
+  name "cardboard box(20)"
+}
+CardboardBox {
+  translation 15.21 0.44 14.3
+  name "cardboard box(7)"
+}
+CardboardBox {
+  translation 13.94 0.44 14.3
+  name "cardboard box(9)"
+}
+CardboardBox {
+  translation 11.82 0.44 14.3
+  name "cardboard box(25)"
+}
+CardboardBox {
+  translation 13.24 0.44 14.3
+  name "cardboard box(15)"
+}
+CardboardBox {
+  translation 11.18 0.44 14.3
+  name "cardboard box(24)"
+}
+CardboardBox {
+  translation 15.99 0.44 15.7
+  name "cardboard box(1)"
+}
+CardboardBox {
+  translation 15.94 0.44 13.7
+  name "cardboard box(4)"
+}
+CardboardBox {
+  translation 15.96 0.44 11.68
+  name "cardboard box(16)"
+}
+CardboardBox {
+  translation 13.95 0.44 11.68
+  name "cardboard box(29)"
+}
+CardboardBox {
+  translation 15.26 0.44 11.68
+  name "cardboard box(27)"
+}
+CardboardBox {
+  translation 13.25 0.44 11.68
+  name "cardboard box(28)"
+}
+CardboardBox {
+  translation 11.87 0.44 11.68
+  name "cardboard box(33)"
+}
+CardboardBox {
+  translation 11.15 0.44 11.68
+  name "cardboard box(32)"
+}
+CardboardBox {
+  translation 15.25 0.44 15.7
+  name "cardboard box(2)"
+}
+CardboardBox {
+  translation 13.92 0.44 15.7
+  name "cardboard box(10)"
+}
+CardboardBox {
+  translation 13.22 0.44 15.7
+  name "cardboard box(12)"
+}
+CardboardBox {
+  translation 11.86 0.44 15.7
+  name "cardboard box(19)"
+}
+CardboardBox {
+  translation 11.14 0.44 15.7
+  name "cardboard box(18)"
+}
+CardboardBox {
+  translation 15.19 0.44 13.7
+  name "cardboard box(6)"
+}
+CardboardBox {
+  translation 13.95 0.44 13.7
+  name "cardboard box(8)"
+}
+CardboardBox {
+  translation 13.21 0.44 13.7
+  name "cardboard box(14)"
+}
+CardboardBox {
+  translation 11.86 0.44 13.7
+  name "cardboard box(23)"
+}
+CardboardBox {
+  translation 11.15 0.44 13.7
+  name "cardboard box(22)"
+}
+WoodenPallet {
+  translation 16 0 16
+}
+WoodenPallet {
+  translation 15.19 0 14
+  name "wooden pallet(2)"
+}
+WoodenPallet {
+  translation 15.19 0 11.98
+  name "wooden pallet(13)"
+}
+WoodenPallet {
+  translation 14 0 14
+  name "wooden pallet(4)"
+}
+WoodenPallet {
+  translation 14 0 11.98
+  name "wooden pallet(14)"
+}
+WoodenPallet {
+  translation 13.18 0 14
+  name "wooden pallet(7)"
+}
+WoodenPallet {
+  translation 13.18 0 11.99
+  name "wooden pallet(15)"
+}
+WoodenPallet {
+  translation 16 0 14
+  name "wooden pallet(3)"
+}
+WoodenPallet {
+  translation 16 0 11.97
+  name "wooden pallet(8)"
+}
+WoodenPallet {
+  translation 15.19 0 16
+  name "wooden pallet(1)"
+}
+WoodenPallet {
+  translation 14 0 16
+  name "wooden pallet(5)"
+}
+WoodenPallet {
+  translation 13.2 0 16
+  name "wooden pallet(6)"
+}
+WoodenPallet {
+  translation 11.89 0 16
+  name "wooden pallet(9)"
+}
+WoodenPallet {
+  translation 11.89 0 13.99
+  name "wooden pallet(11)"
+}
+WoodenPallet {
+  translation 11.89 0 12.02
+  name "wooden pallet(16)"
+}
+WoodenPallet {
+  translation 11.07 0 16
+  name "wooden pallet(10)"
+}
+WoodenPallet {
+  translation 11.07 0 13.98
+  name "wooden pallet(12)"
+}
+WoodenPallet {
+  translation 11.07 0 12.02
+  name "wooden pallet(17)"
+}
+Table {
+  translation -15 0 -18
+  size 3 0.74 1
+}
+Table {
+  translation -15 0 -8
+  name "table(18)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 0 -6
+  name "table(39)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 0 -6
+  name "table(42)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0 -6
+  name "table(45)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0 -6
+  name "table(48)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0 -6
+  name "table(51)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0 -6
+  name "table(54)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 0 -1
+  name "table(36)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 0 4
+  name "table(72)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 0 9
+  name "table(90)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0 -1
+  name "table(57)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0 4
+  name "table(73)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0 9
+  name "table(91)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0 -1
+  name "table(60)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0 4
+  name "table(78)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0 9
+  name "table(96)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0 14
+  name "table(117)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0 -1
+  name "table(63)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0 4
+  name "table(80)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0 9
+  name "table(99)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0 14
+  name "table(108)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0 -1
+  name "table(66)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0 4
+  name "table(84)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0 9
+  name "table(102)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0 14
+  name "table(110)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0 -1
+  name "table(69)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0 4
+  name "table(86)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0 9
+  name "table(105)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0 14
+  name "table(113)"
+  size 3 0.74 2
+}
+CardboardBox {
+  translation 2 0.3 13.5
+  name "cardboard box(36)"
+}
+CardboardBox {
+  translation 2 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(132)"
+}
+CardboardBox {
+  translation 2 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(162)"
+}
+CardboardBox {
+  translation 1 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(164)"
+}
+CardboardBox {
+  translation 0 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(166)"
+}
+CardboardBox {
+  translation -1 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(169)"
+}
+CardboardBox {
+  translation -2 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(171)"
+}
+CardboardBox {
+  translation -3 0.3 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(172)"
+}
+CardboardBox {
+  translation 2 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(163)"
+}
+CardboardBox {
+  translation 2 1 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(174)"
+}
+CardboardBox {
+  translation 1 1 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(231)"
+}
+CardboardBox {
+  translation 0 1 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(234)"
+}
+CardboardBox {
+  translation 2 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(175)"
+}
+CardboardBox {
+  translation 2 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(193)"
+}
+CardboardBox {
+  translation 2 1.74 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(229)"
+}
+CardboardBox {
+  translation 1 1.74 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(232)"
+}
+CardboardBox {
+  translation 0 1.74 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(235)"
+}
+CardboardBox {
+  translation 2 2.48 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(230)"
+}
+CardboardBox {
+  translation 1 2.48 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(233)"
+}
+CardboardBox {
+  translation 0 2.48 -0.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(236)"
+}
+CardboardBox {
+  translation 2 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(211)"
+}
+CardboardBox {
+  translation 1 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(194)"
+}
+CardboardBox {
+  translation 1 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(212)"
+}
+CardboardBox {
+  translation 0 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(195)"
+}
+CardboardBox {
+  translation 0 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(213)"
+}
+CardboardBox {
+  translation -1 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(196)"
+}
+CardboardBox {
+  translation -1 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(214)"
+}
+CardboardBox {
+  translation -2 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(197)"
+}
+CardboardBox {
+  translation -2 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(215)"
+}
+CardboardBox {
+  translation -3 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(198)"
+}
+CardboardBox {
+  translation -3 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(216)"
+}
+CardboardBox {
+  translation -4.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(199)"
+}
+CardboardBox {
+  translation -4.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(217)"
+}
+CardboardBox {
+  translation -5.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(200)"
+}
+CardboardBox {
+  translation -5.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(218)"
+}
+CardboardBox {
+  translation -6.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(201)"
+}
+CardboardBox {
+  translation -6.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(219)"
+}
+CardboardBox {
+  translation -7.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(202)"
+}
+CardboardBox {
+  translation -7.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(220)"
+}
+CardboardBox {
+  translation -8.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(203)"
+}
+CardboardBox {
+  translation -8.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(221)"
+}
+CardboardBox {
+  translation -9.5 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(204)"
+}
+CardboardBox {
+  translation -9.5 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(222)"
+}
+CardboardBox {
+  translation -11 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(205)"
+}
+CardboardBox {
+  translation -11 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(223)"
+}
+CardboardBox {
+  translation -12 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(206)"
+}
+CardboardBox {
+  translation -12 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(224)"
+}
+CardboardBox {
+  translation -13 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(207)"
+}
+CardboardBox {
+  translation -13 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(225)"
+}
+CardboardBox {
+  translation -14 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(208)"
+}
+CardboardBox {
+  translation -14 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(226)"
+}
+CardboardBox {
+  translation -15 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(209)"
+}
+CardboardBox {
+  translation -15 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(227)"
+}
+CardboardBox {
+  translation -16 1.74 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(210)"
+}
+CardboardBox {
+  translation -16 2.48 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(228)"
+}
+CardboardBox {
+  translation 1 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(176)"
+}
+CardboardBox {
+  translation 0 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(177)"
+}
+CardboardBox {
+  translation -1 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(178)"
+}
+CardboardBox {
+  translation -2 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(179)"
+}
+CardboardBox {
+  translation -3 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(180)"
+}
+CardboardBox {
+  translation -4.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(181)"
+}
+CardboardBox {
+  translation -5.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(182)"
+}
+CardboardBox {
+  translation -6.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(183)"
+}
+CardboardBox {
+  translation -7.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(184)"
+}
+CardboardBox {
+  translation -8.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(185)"
+}
+CardboardBox {
+  translation -9.5 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(186)"
+}
+CardboardBox {
+  translation -11 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(187)"
+}
+CardboardBox {
+  translation -12 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(188)"
+}
+CardboardBox {
+  translation -13 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(189)"
+}
+CardboardBox {
+  translation -14 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(190)"
+}
+CardboardBox {
+  translation -15 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(191)"
+}
+CardboardBox {
+  translation -16 1 -1.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(192)"
+}
+CardboardBox {
+  translation 1 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(165)"
+}
+CardboardBox {
+  translation 0 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(167)"
+}
+CardboardBox {
+  translation -1 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(168)"
+}
+CardboardBox {
+  translation -2 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(170)"
+}
+CardboardBox {
+  translation -3 1 8.5
+  rotation 0 1 0 -1.5707953071795862
+  name "cardboard box(173)"
+}
+CardboardBox {
+  translation 2 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(150)"
+}
+CardboardBox {
+  translation 1 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(152)"
+}
+CardboardBox {
+  translation 0 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(153)"
+}
+CardboardBox {
+  translation -1 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(154)"
+}
+CardboardBox {
+  translation -2 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(155)"
+}
+CardboardBox {
+  translation -3 1 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(156)"
+}
+CardboardBox {
+  translation 2 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(151)"
+}
+CardboardBox {
+  translation 1 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(157)"
+}
+CardboardBox {
+  translation 0 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(158)"
+}
+CardboardBox {
+  translation -1 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(159)"
+}
+CardboardBox {
+  translation -2 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(160)"
+}
+CardboardBox {
+  translation -3 2.48 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(161)"
+}
+CardboardBox {
+  translation 1 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(133)"
+}
+CardboardBox {
+  translation 0 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(134)"
+}
+CardboardBox {
+  translation -1 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(135)"
+}
+CardboardBox {
+  translation -2 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(136)"
+}
+CardboardBox {
+  translation -3 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(137)"
+}
+CardboardBox {
+  translation -4.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(138)"
+}
+CardboardBox {
+  translation -5.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(139)"
+}
+CardboardBox {
+  translation -6.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(140)"
+}
+CardboardBox {
+  translation -7.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(141)"
+}
+CardboardBox {
+  translation -8.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(142)"
+}
+CardboardBox {
+  translation -9.5 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(143)"
+}
+CardboardBox {
+  translation -11 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(144)"
+}
+CardboardBox {
+  translation -12 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(145)"
+}
+CardboardBox {
+  translation -13 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(146)"
+}
+CardboardBox {
+  translation -14 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(147)"
+}
+CardboardBox {
+  translation -15 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(148)"
+}
+CardboardBox {
+  translation -16 0.3 9.5
+  rotation 0 1 0 1.5708
+  name "cardboard box(149)"
+}
+CardboardBox {
+  translation 2 0.3 14.5
+  name "cardboard box(128)"
+}
+CardboardBox {
+  translation 2 1 13.5
+  name "cardboard box(39)"
+}
+CardboardBox {
+  translation 2 1 14.5
+  name "cardboard box(129)"
+}
+CardboardBox {
+  translation 2 1.74 13.5
+  name "cardboard box(45)"
+}
+CardboardBox {
+  translation 2 1.74 14.5
+  name "cardboard box(130)"
+}
+CardboardBox {
+  translation 2 2.48 13.5
+  name "cardboard box(42)"
+}
+CardboardBox {
+  translation 2 2.48 14.5
+  name "cardboard box(131)"
+}
+CardboardBox {
+  translation 1 0.3 13.5
+  name "cardboard box(37)"
+}
+CardboardBox {
+  translation 1 0.3 14.5
+  name "cardboard box(124)"
+}
+CardboardBox {
+  translation 1 1 13.5
+  name "cardboard box(40)"
+}
+CardboardBox {
+  translation 1 1 14.5
+  name "cardboard box(125)"
+}
+CardboardBox {
+  translation 1 1.74 13.5
+  name "cardboard box(46)"
+}
+CardboardBox {
+  translation 1 1.74 14.5
+  name "cardboard box(126)"
+}
+CardboardBox {
+  translation 1 2.48 13.5
+  name "cardboard box(43)"
+}
+CardboardBox {
+  translation 1 2.48 14.5
+  name "cardboard box(127)"
+}
+CardboardBox {
+  translation 0 0.3 13.5
+  name "cardboard box(38)"
+}
+CardboardBox {
+  translation 0 0.3 14.5
+  name "cardboard box(120)"
+}
+CardboardBox {
+  translation -1 0.3 13.5
+  name "cardboard box(48)"
+}
+CardboardBox {
+  translation -1 0.3 14.5
+  name "cardboard box(116)"
+}
+CardboardBox {
+  translation -2 0.3 13.5
+  name "cardboard box(52)"
+}
+CardboardBox {
+  translation -2 0.3 14.5
+  name "cardboard box(112)"
+}
+CardboardBox {
+  translation -3 0.3 13.5
+  name "cardboard box(56)"
+}
+CardboardBox {
+  translation -3 0.3 14.5
+  name "cardboard box(108)"
+}
+CardboardBox {
+  translation -4.5 0.3 13.5
+  name "cardboard box(60)"
+}
+CardboardBox {
+  translation -4.5 0.3 14.5
+  name "cardboard box(104)"
+}
+CardboardBox {
+  translation -5.5 0.3 13.5
+  name "cardboard box(67)"
+}
+CardboardBox {
+  translation -5.5 0.3 14.5
+  name "cardboard box(100)"
+}
+CardboardBox {
+  translation -6.5 0.3 13.5
+  name "cardboard box(68)"
+}
+CardboardBox {
+  translation -6.5 0.3 14.5
+  name "cardboard box(96)"
+}
+CardboardBox {
+  translation -7.5 0.3 13.5
+  name "cardboard box(72)"
+}
+CardboardBox {
+  translation -7.5 0.3 14.5
+  name "cardboard box(92)"
+}
+CardboardBox {
+  translation -8.5 0.3 13.5
+  name "cardboard box(76)"
+}
+CardboardBox {
+  translation -8.5 0.3 14.5
+  name "cardboard box(88)"
+}
+CardboardBox {
+  translation -9.5 0.3 13.5
+  name "cardboard box(80)"
+}
+CardboardBox {
+  translation -9.5 0.3 14.5
+  name "cardboard box(84)"
+}
+CardboardBox {
+  translation 0 1 13.5
+  name "cardboard box(41)"
+}
+CardboardBox {
+  translation 0 1 14.5
+  name "cardboard box(121)"
+}
+CardboardBox {
+  translation -1 1 13.5
+  name "cardboard box(49)"
+}
+CardboardBox {
+  translation -1 1 14.5
+  name "cardboard box(117)"
+}
+CardboardBox {
+  translation -2 1 13.5
+  name "cardboard box(53)"
+}
+CardboardBox {
+  translation -2 1 14.5
+  name "cardboard box(113)"
+}
+CardboardBox {
+  translation -3 1 13.5
+  name "cardboard box(57)"
+}
+CardboardBox {
+  translation -3 1 14.5
+  name "cardboard box(109)"
+}
+CardboardBox {
+  translation -4.5 1 13.5
+  name "cardboard box(61)"
+}
+CardboardBox {
+  translation -4.5 1 14.5
+  name "cardboard box(105)"
+}
+CardboardBox {
+  translation -5.5 1 13.5
+  name "cardboard box(66)"
+}
+CardboardBox {
+  translation -5.5 1 14.5
+  name "cardboard box(101)"
+}
+CardboardBox {
+  translation -6.5 1 13.5
+  name "cardboard box(69)"
+}
+CardboardBox {
+  translation -6.5 1 14.5
+  name "cardboard box(97)"
+}
+CardboardBox {
+  translation -7.5 1 13.5
+  name "cardboard box(73)"
+}
+CardboardBox {
+  translation -7.5 1 14.5
+  name "cardboard box(93)"
+}
+CardboardBox {
+  translation -8.5 1 13.5
+  name "cardboard box(77)"
+}
+CardboardBox {
+  translation -8.5 1 14.5
+  name "cardboard box(89)"
+}
+CardboardBox {
+  translation -9.5 1 13.5
+  name "cardboard box(81)"
+}
+CardboardBox {
+  translation -9.5 1 14.5
+  name "cardboard box(85)"
+}
+CardboardBox {
+  translation 0 1.74 13.5
+  name "cardboard box(47)"
+}
+CardboardBox {
+  translation 0 1.74 14.5
+  name "cardboard box(122)"
+}
+CardboardBox {
+  translation -1 1.74 13.5
+  name "cardboard box(50)"
+}
+CardboardBox {
+  translation -1 1.74 14.5
+  name "cardboard box(118)"
+}
+CardboardBox {
+  translation -2 1.74 13.5
+  name "cardboard box(54)"
+}
+CardboardBox {
+  translation -2 1.74 14.5
+  name "cardboard box(114)"
+}
+CardboardBox {
+  translation -3 1.74 13.5
+  name "cardboard box(58)"
+}
+CardboardBox {
+  translation -3 1.74 14.5
+  name "cardboard box(110)"
+}
+CardboardBox {
+  translation -4.5 1.74 13.5
+  name "cardboard box(62)"
+}
+CardboardBox {
+  translation -4.5 1.74 14.5
+  name "cardboard box(106)"
+}
+CardboardBox {
+  translation -5.5 1.74 13.5
+  name "cardboard box(65)"
+}
+CardboardBox {
+  translation -5.5 1.74 14.5
+  name "cardboard box(102)"
+}
+CardboardBox {
+  translation -6.5 1.74 13.5
+  name "cardboard box(70)"
+}
+CardboardBox {
+  translation -6.5 1.74 14.5
+  name "cardboard box(98)"
+}
+CardboardBox {
+  translation -7.5 1.74 13.5
+  name "cardboard box(74)"
+}
+CardboardBox {
+  translation -7.5 1.74 14.5
+  name "cardboard box(94)"
+}
+CardboardBox {
+  translation -8.5 1.74 13.5
+  name "cardboard box(78)"
+}
+CardboardBox {
+  translation -8.5 1.74 14.5
+  name "cardboard box(90)"
+}
+CardboardBox {
+  translation -9.5 1.74 13.5
+  name "cardboard box(82)"
+}
+CardboardBox {
+  translation -9.5 1.74 14.5
+  name "cardboard box(86)"
+}
+CardboardBox {
+  translation 0 2.48 13.5
+  name "cardboard box(44)"
+}
+CardboardBox {
+  translation 0 2.48 14.5
+  name "cardboard box(123)"
+}
+CardboardBox {
+  translation -1 2.48 13.5
+  name "cardboard box(51)"
+}
+CardboardBox {
+  translation -1 2.48 14.5
+  name "cardboard box(119)"
+}
+CardboardBox {
+  translation -2 2.48 13.5
+  name "cardboard box(55)"
+}
+CardboardBox {
+  translation -2 2.48 14.5
+  name "cardboard box(115)"
+}
+CardboardBox {
+  translation -3 2.48 13.5
+  name "cardboard box(59)"
+}
+CardboardBox {
+  translation -3 2.48 14.5
+  name "cardboard box(111)"
+}
+CardboardBox {
+  translation -4.5 2.48 13.5
+  name "cardboard box(63)"
+}
+CardboardBox {
+  translation -4.5 2.48 14.5
+  name "cardboard box(107)"
+}
+CardboardBox {
+  translation -5.5 2.48 13.5
+  name "cardboard box(64)"
+}
+CardboardBox {
+  translation -5.5 2.48 14.5
+  name "cardboard box(103)"
+}
+CardboardBox {
+  translation -6.5 2.48 13.5
+  name "cardboard box(71)"
+}
+CardboardBox {
+  translation -6.5 2.48 14.5
+  name "cardboard box(99)"
+}
+CardboardBox {
+  translation -7.5 2.48 13.5
+  name "cardboard box(75)"
+}
+CardboardBox {
+  translation -7.5 2.48 14.5
+  name "cardboard box(95)"
+}
+CardboardBox {
+  translation -8.5 2.48 13.5
+  name "cardboard box(79)"
+}
+CardboardBox {
+  translation -8.5 2.48 14.5
+  name "cardboard box(91)"
+}
+CardboardBox {
+  translation -9.5 2.48 13.5
+  name "cardboard box(83)"
+}
+CardboardBox {
+  translation -9.5 2.48 14.5
+  name "cardboard box(87)"
+}
+Table {
+  translation -15 0.74 -1
+  name "table(37)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 0.74 4
+  name "table(74)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 0.74 9
+  name "table(92)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0.74 -1
+  name "table(58)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0.74 4
+  name "table(75)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0.74 9
+  name "table(94)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0.74 -1
+  name "table(61)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0.74 4
+  name "table(79)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0.74 9
+  name "table(97)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 0.74 14
+  name "table(118)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0.74 -1
+  name "table(64)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0.74 4
+  name "table(81)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0.74 14
+  name "table(100)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 0.74 9
+  name "table(116)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0.74 -1
+  name "table(67)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0.74 4
+  name "table(85)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0.74 9
+  name "table(103)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 0.74 14
+  name "table(111)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0.74 -1
+  name "table(70)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0.74 4
+  name "table(87)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0.74 9
+  name "table(106)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 0.74 14
+  name "table(114)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 1.48 -1
+  name "table(38)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 1.48 4
+  name "table(76)"
+  size 3 0.74 2
+}
+Table {
+  translation -15 1.48 9
+  name "table(93)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 1.48 -1
+  name "table(59)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 1.48 4
+  name "table(77)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 1.48 9
+  name "table(95)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 1.48 -1
+  name "table(62)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 1.48 4
+  name "table(82)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 1.48 9
+  name "table(98)"
+  size 3 0.74 2
+}
+Table {
+  translation -8.5 1.48 14
+  name "table(119)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 1.48 -1
+  name "table(65)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 1.48 4
+  name "table(83)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 1.48 9
+  name "table(101)"
+  size 3 0.74 2
+}
+Table {
+  translation -5.5 1.48 14
+  name "table(109)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 1.48 -1
+  name "table(68)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 1.48 4
+  name "table(88)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 1.48 9
+  name "table(104)"
+  size 3 0.74 2
+}
+Table {
+  translation -2 1.48 14
+  name "table(112)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 1.48 -1
+  name "table(71)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 1.48 4
+  name "table(89)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 1.48 9
+  name "table(107)"
+  size 3 0.74 2
+}
+Table {
+  translation 1 1.48 14
+  name "table(115)"
+  size 3 0.74 2
+}
+Table {
+  translation -12 0 -18
+  name "table(3)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 0 -8
+  name "table(21)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0 -18
+  name "table(6)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0 -8
+  name "table(24)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0 -18
+  name "table(9)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0 -8
+  name "table(27)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0 -18
+  name "table(12)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0 -8
+  name "table(30)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0 -18
+  name "table(15)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0 -8
+  name "table(33)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 0.74 -18
+  name "table(1)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 0.74 -8
+  name "table(19)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 0.74 -6
+  name "table(40)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 0.74 -6
+  name "table(43)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0.74 -6
+  name "table(46)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0.74 -6
+  name "table(49)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0.74 -6
+  name "table(52)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0.74 -6
+  name "table(55)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 0.74 -18
+  name "table(4)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 0.74 -8
+  name "table(22)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0.74 -18
+  name "table(7)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 0.74 -8
+  name "table(25)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0.74 -18
+  name "table(10)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 0.74 -8
+  name "table(28)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0.74 -18
+  name "table(13)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 0.74 -8
+  name "table(31)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0.74 -18
+  name "table(16)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 0.74 -8
+  name "table(34)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 1.48 -18
+  name "table(2)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 1.48 -8
+  name "table(20)"
+  size 3 0.74 1
+}
+Table {
+  translation -15 1.48 -6
+  name "table(41)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 1.48 -6
+  name "table(44)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 1.48 -6
+  name "table(47)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 1.48 -6
+  name "table(50)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 1.48 -6
+  name "table(53)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 1.48 -6
+  name "table(56)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 1.48 -18
+  name "table(5)"
+  size 3 0.74 1
+}
+Table {
+  translation -12 1.48 -8
+  name "table(23)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 1.48 -18
+  name "table(8)"
+  size 3 0.74 1
+}
+Table {
+  translation -8.5 1.48 -8
+  name "table(26)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 1.48 -18
+  name "table(11)"
+  size 3 0.74 1
+}
+Table {
+  translation -5.5 1.48 -8
+  name "table(29)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 1.48 -18
+  name "table(14)"
+  size 3 0.74 1
+}
+Table {
+  translation -2 1.48 -8
+  name "table(32)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 1.48 -18
+  name "table(17)"
+  size 3 0.74 1
+}
+Table {
+  translation 1 1.48 -8
+  name "table(35)"
+  size 3 0.74 1
+}
+ConveyorBelt {
+  translation -4 0 -13
+  size 25 0.6 1
+}
+ConveyorBelt {
+  translation 9 0 -10
+  rotation 0 1 0 1.5708
+  name "conveyor belt(1)"
+  size 14 0.5 1
+}
+Solid {
+  translation -16 1.5 16
+  children [
+    Shape {
+      appearance CementTiles {
+      }
+      geometry Box {
+        size 7 3 7
+      }
+    }
+  ]
+}
+WoodenPalletStack {
+  translation 18 0 -18
+}
+Pedestrian {
+  translation 7.64 1.27 -3.71
+  rotation 0 1 0 1.5708
+  controller ""
+  skinColor 0.666667 0.333333 0
+}
+Pedestrian {
+  translation 15.92 1.27 10.6
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "pedestrian(3)"
+  controller ""
+}
+Pedestrian {
+  translation 13.54 1.27 10.7
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "pedestrian(4)"
+  controller ""
+  skinColor 0.631373 0.384314 0.0980392
+}
+Pedestrian {
+  translation 11.57 1.27 10.8
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "pedestrian(5)"
+  controller ""
+}
+Pedestrian {
+  translation 7.74 1.27 -5.91
+  rotation 0 1 0 1.5708
+  name "pedestrian(1)"
+  controller ""
+}
+Pedestrian {
+  translation 7.84 1.27 -8.15
+  rotation 0 1 0 1.5708
+  name "pedestrian(2)"
+  controller ""
+}
+Mavic2Pro {
+  translation 1.88 0.11 -9
+  rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+  controller "mavicJavaTest"
+}
+WoodenPalletStack {
+  translation 17 0 -18
+  name "wooden pallet stack(1)"
+}
+WoodenPalletStack {
+  translation 16 0 -18
+  name "wooden pallet stack(2)"
+}
+StoneBench {
+  translation -19 0 -11
+  rotation 0 1 0 1.5708
+}
+StoneBench {
+  translation -19 0 -15.57
+  rotation 0 1 0 1.5708
+  name "stone bench(1)"
+}
+Mavic2Pro {
+  translation -18.92 0.62 -11.46
+  rotation 1 0 0 -1.5707953071795862
+  name "Mavic 2 PRO(1)"
+  controller ""
+}
+Mavic2Pro {
+  translation -18.93 0.62 -15.15
+  rotation 1 0 0 -1.5707953071795862
+  name "Mavic 2 PRO(3)"
+  controller ""
+}
+Mavic2Pro {
+  translation -18.93 0.62 -15.97
+  rotation 1 0 0 -1.5707953071795862
+  name "Mavic 2 PRO(2)"
+  controller ""
+}
+CardboardBox_1 {
+  translation 2 1 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 1(1)"
+}
+CardboardBox_4 {
+  translation 2 1.74 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 4(1)"
+}
+CardboardBox_2 {
+  translation 1 1 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 2(1)"
+}
+CardboardBox_6 {
+  translation 0 1.74 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 6(1)"
+}
+CardboardBox_5 {
+  translation 1 1.74 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 5(1)"
+}
+CardboardBox_7 {
+  translation 2 2.48 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 7(1)"
+}
+CardboardBox_8 {
+  translation 1 2.48 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 8(1)"
+}
+CardboardBox_9 {
+  translation 0 2.48 -18
+  rotation 0 1 0 1.5708
+  name "cardboard box 9(1)"
+}

@@ -1,0 +1,57 @@
+/* Global Style */
+html,
+body {
+	scroll-behavior: smooth;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.08' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* nav.js style */
+.nav-button:hover {
+	color: #fff4cf;
+}
+
+.nav-button {
+	color: #f0cc4a;
+	font-size: 1.2rem;
+	background-color: #c8102e;
+}
+
+nav {
+	background-color: #c8102e;
+}
+
+.logo {
+	width: 40px;
+}
+
+.logout {
+	float: right;
+}
+
+/* metrics.js style */
+
+.traffic-chart {
+	padding: 150px;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+
+/* home.js style */
+.home-cards {
+	margin-top: 22%;
+}
+
+.card-img-top {
+	width: 100px;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* login.js style */
+.login {
+	margin-top: 22%;
+}
